@@ -20,3 +20,6 @@ Thumbs.db
 
 # Ignore data files (optional)
 data/
+
+
+.env
