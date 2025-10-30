@@ -1,0 +1,21 @@
+# prompts/summarizer_prompts.yaml
+summary_prompt: |
+  You are an expert airline data analyst. Produce a clear executive summary (3-6 short paragraphs)
+  using the Profile, Semantic mapping of columns, KPI table and detected anomalies below.
+  Use headings, bullets for recommendations, one-sentence actionable suggestions, and avoid technical jargon.
+  Keep tone professional and suitable for the CEO/COO.
+
+example_template: |
+  Profile:
+  {profile}
+
+  Semantic mapping:
+  {semantic}
+
+  KPIs (top numeric cols):
+  {kpis}
+
+  Anomalies:
+  {anomalies}
+
+  Write the summary now.
